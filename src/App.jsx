@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import BlogCard from "./components/BlogCard"
 import { posts } from "./components/data/posts"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           ))}
         </section>
       </main>
+      <Footer />
     </div>  
   )
 }
