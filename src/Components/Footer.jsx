@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -21,19 +22,19 @@ const Footer = () => {
                     </h3>
                     <ul className="space-y-2 text-sm light:text-gray-600">
                         <li>    
-                            <a href="#" className="rounded-md hover:bg-gray-1000">   
+                            <Link to="/" className="rounded-md px-3 py-1 hover:bg-gray-100 dark:hover:bg-gray-800">   
                                 Home
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#" className="rounded-md hover:bg-gray-1000">
+                            <Link to="/articles" className="rounded-md px-3 py-1 hover:bg-gray-100 dark:hover:bg-gray-800">
                                 Articles
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#" className="rounded-md hover:bg-gray-1000">
+                            <Link to="/about" className="rounded-md px-3 py-1 hover:bg-gray-100 dark:hover:bg-gray-800">
                                 About
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -44,17 +45,17 @@ const Footer = () => {
                     </h3>
                     <ul className="space-y-2 text-sm light:text-gray-600">
                         <li>
-                            <a href="https://www.instagram.com/yhungchamp14?igsh=MXA1cWtnd3p4MWNyYg%3D%3D" target="_blank" className="hover:bg-amber-300 hover:rounded-md hover:w-15 hover:font-bold">
+                            <a href="https://www.instagram.com/yhungchamp14?igsh=MXA1cWtnd3p4MWNyYg%3D%3D" target="_blank" className="px-3 py-1 hover:bg-amber-300 hover:rounded-md hover:w-15 hover:font-bold">
                                Instagram 
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/DanielSemilore" target="_blank" className="hover:bg-amber-300 hover:rounded-md hover:w-15 hover:font-bold">
+                            <a href="https://github.com/DanielSemilore" target="_blank" className="hover:bg-amber-300 px-3 py-1 hover:rounded-md hover:w-15 hover:font-bold">
                                 GitHub
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.tiktok.com/@yhungchamp2" target="_blank" className="hover:bg-amber-300 hover:rounded-md hover:w-15 hover:font-bold">   
+                            <a href="https://www.tiktok.com/@yhungchamp2" target="_blank" className="px-3 py-1 hover:bg-amber-300 hover:rounded-md hover:w-15 hover:font-bold">   
                                 Tiktok
                             </a>
                         </li>

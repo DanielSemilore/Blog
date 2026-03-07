@@ -1,10 +1,11 @@
 import React from 'react'
-import ThemeToggle from "./ThemeToggle"
+import ThemeToggle from "./ThemeToggle";
+import { Link } from "react-router-dom";
 
 const Navbar = ({ toggleTheme, theme }) => {
   return (
     <div>
-        <header className="light:bg-white fixed z-50 dark:bg-gray-900 border-b dark:border-gray-800">
+        <header className="light:bg-white relative z-50 dark:bg-gray-900 border-b dark:border-gray-800">
             <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
                 <div className="flex items-center gap-2">
                     <img src="/logo.svg" className="w-6 h-6" />
@@ -13,10 +14,16 @@ const Navbar = ({ toggleTheme, theme }) => {
                     </span>
                 </div>
                 <div className="flex items-center gap-6">
-                    <nav className="hidden md:flex gap-6 text-sm light:text-gray-600 dark:text-gray-300">
-                        <a href="#" className="rounded-md hover:bg-gray-1000">Home</a>
-                        <a href="#" className="rounded-md hover:bg-gray-1000">Articles</a>
-                        <a href="#" className="rounded-md hover:bg-gray-1000">About</a>
+                    <nav className="hidden md:flex gap-6 text-sm">
+                        <Link to="/" className="rounded-md px-3 py-1 hover:bg-gray-100 dark:hover:bg-gray-800">
+                            Home
+                        </Link>
+                        <Link to="/articles" className="rounded-md px-3 py-1 hover:bg-gray-100 dark:hover:bg-gray-800">
+                            Articles
+                        </Link>
+                        <Link to="/about" className="rounded-md px-3 py-1 hover:bg-gray-100 dark:hover:bg-gray-800">
+                            About
+                        </Link>
                     </nav>
                     <ThemeToggle toggleTheme={toggleTheme} theme={theme} />
                 </div>

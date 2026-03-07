@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div>
-        <section className="light:bg-white">
+        <section className="light:bg-gray-400">
             <div className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
                 <div>
                     <h2 className="text-4xl md:text-5xl font-bold leading-tight">
@@ -15,7 +15,7 @@ const Hero = () => {
                 </div>
                 <img
                     src="https://images.unsplash.com/photo-1511920170033-f8396924c348"
-                    className="rounded-xl shadow-lg"
+                    className="rounded-xl shadow-lg h-100 w-150"
                 />
             </div>
         </section>

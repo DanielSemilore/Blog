@@ -5,6 +5,9 @@ import Hero from "./components/Hero";
 import BlogCard from "./components/BlogCard";
 import { posts } from "./components/data/posts";
 import Footer from "./components/Footer";
+import Article from "./components/Article";
+import { Routes, Route } from "react-router-dom";
+
 
 function App() {
 
@@ -17,14 +20,26 @@ function App() {
   return (
     <div className={`${theme} min-h-screen`}>
       <Navbar toggleTheme={toggleTheme} theme={theme} />
-      <Hero />
-      <main className="max-w-6xl mx-auto px-4 py-16">
-        <section className="grid md:grid-cols-3 gap-8">
-          {posts.map(post => (
-            <BlogCard key={post.id} post={post} />
-          ))}
-        </section>
-      </main>
+      <Routes>
+        {/* Home Page */}
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <main className="max-w-6xl mx-auto px-4 py-16">
+                <section className="grid md:grid-cols-3 gap-8">
+                  {posts.map(post => (
+                    <BlogCard key={post.id} post={post} />
+                  ))}
+                </section>
+              </main>
+            </>
+          }
+        />
+          {/* Article Page */}
+          <Route path="/articles" element={<Article />} />
+      </Routes>
       <Footer />
     </div>  
   )
