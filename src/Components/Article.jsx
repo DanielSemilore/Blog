@@ -62,7 +62,7 @@ const Article = () => {
             </section>
             {/* Section */}
             <section className="mt-12 space-y-6 text-lg leading-relaxed">
-                <h2 className="text-2xl font-semibold light:text-gray-900">
+                <h2 className="text-2xl font-semibold light:text-gray-900 dark:text-white">
                     Section 1.10.33
                 </h2>
                 <div className="text-gray-700 dark:text-gray-300">

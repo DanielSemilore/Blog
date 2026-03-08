@@ -6,6 +6,8 @@ import BlogCard from "./components/BlogCard";
 import { posts } from "./components/data/posts";
 import Footer from "./components/Footer";
 import Article from "./components/Article";
+import About from "./components/About";
+import HomeExtra from "./components/HomeExtra"
 import { Routes, Route } from "react-router-dom";
 
 
@@ -34,11 +36,14 @@ function App() {
                   ))}
                 </section>
               </main>
+              <HomeExtra />
             </>
           }
         />
           {/* Article Page */}
           <Route path="/articles" element={<Article />} />
+          {/*About page */}
+          <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </div>  
