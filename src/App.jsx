@@ -11,6 +11,7 @@ import HomeExtra from "./components/HomeExtra";
 import FeaturedArticle from "./components/FeaturedArticle";
 import AuthorSpotlight from "./components/AuthorSpotlight";
 import Newsletter from "./components/Newsletter";
+import Trending from "./components/Trending";
 import { Routes, Route } from "react-router-dom";
 
 
@@ -42,6 +43,7 @@ function App() {
                 <AuthorSpotlight />
                 <Newsletter />
               </main>
+              <Trending />
               <HomeExtra />
             </>
           }

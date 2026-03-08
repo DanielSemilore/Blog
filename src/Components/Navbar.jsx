@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = ({ toggleTheme, theme }) => {
   return (
     <div>
-        <header className="light:bg-white relative z-50 dark:bg-gray-900 border-b dark:border-gray-800">
+        <header className="sticky top-0 z-50 backdrop-blur bg-white/80 dark:bg-gray-900/80 border-b dark:border-gray-800">
             <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
                 <div className="flex items-center gap-2">
                     <img src="/logo.svg" className="w-6 h-6" />
