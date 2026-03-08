@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import Navbar from "./components/Navbar.jsx";
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import BlogCard from "./components/BlogCard";
 import { posts } from "./components/data/posts";
