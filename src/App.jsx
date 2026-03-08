@@ -7,7 +7,10 @@ import { posts } from "./components/data/posts";
 import Footer from "./components/Footer";
 import Article from "./components/Article";
 import About from "./components/About";
-import HomeExtra from "./components/HomeExtra"
+import HomeExtra from "./components/HomeExtra";
+import FeaturedArticle from "./components/FeaturedArticle";
+import AuthorSpotlight from "./components/AuthorSpotlight";
+import Newsletter from "./components/Newsletter";
 import { Routes, Route } from "react-router-dom";
 
 
@@ -35,6 +38,9 @@ function App() {
                     <BlogCard key={post.id} post={post} />
                   ))}
                 </section>
+                <FeaturedArticle />
+                <AuthorSpotlight />
+                <Newsletter />
               </main>
               <HomeExtra />
             </>

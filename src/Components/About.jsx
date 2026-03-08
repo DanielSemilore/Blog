@@ -89,8 +89,8 @@ const About = () => {
                     <h2 className="text-2xl font-semibold mb-4 dark:text-white">
                         What You Can Expect Here
                     </h2>
-                    <div className="text-gray-700 dark:text-gray-300">
-                        <ul className="list-disc pl-6 space-y-2">
+                    <div className="text-gray-700 dark:text-black">
+                        <ul className="list-disc pl-6 space-y-2 ">
                             <li>Thoughtful articles and insights</li>
                             <li>Simple explanations of modern technology</li>
                             <li>Creative and productivity ideas</li>
@@ -104,12 +104,12 @@ const About = () => {
                     <h2 className="text-2xl font-semibold mb-4 dark:text-white">
                         Technologies Used
                     </h2>
-                    <div className="text-gray-700 dark:text-gray-300">
-                        <p>
+                    <div className="text-gray-700">
+                        <p className="dark:text-gray-300">
                             HotCoffee was built using modern front-end technologies that allow
                             developers to create fast and scalable web applications.
                         </p>
-                        <ul className="list-disc pl-6 space-y-2">
+                        <ul className="list-disc pl-6 space-y-2 dark:text-black">
                             <li>React for building dynamic user interfaces</li>
                             <li>Tailwind CSS for modern and responsive styling</li>
                             <li>Vite for fast development and build performance</li>
