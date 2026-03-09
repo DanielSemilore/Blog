@@ -1,17 +1,17 @@
 import { useState } from 'react';
 import './App.css';
-import Navbar from "../src/components/Navbar";  ;
-import Hero from "../src/components/Hero";
-import BlogCard from "../src/components/BlogCard";
-import { posts } from "../src/components/data/posts";
-import Footer from "../src/components/Footer";
-import Article from "../src/components/Article";
-import About from "../src/components/About";
-import HomeExtra from "../src/components/HomeExtra";
-import FeaturedArticle from "../src/components/FeaturedArticle";
-import AuthorSpotlight from "../src/components/AuthorSpotlight";
-import Newsletter from "../src/components/Newsletter";
-import Trending from "../src/components/Trending";
+import Navbar from "../src/Components/Navbar";
+import Hero from "../src/Components/Hero";
+import BlogCard from "../src/Components/BlogCard";
+import { posts } from "../src/Components/data/posts";
+import Footer from "../src/Components/Footer";
+import Article from "../src/Components/Article";
+import About from "../src/Components/About";
+import HomeExtra from "../src/Components/HomeExtra";
+import FeaturedArticle from "../src/Components/FeaturedArticle";
+import AuthorSpotlight from "../src/Components/AuthorSpotlight";
+import Newsletter from "../src/Components/Newsletter";
+import Trending from "../src/Components/Trending";
 import { Routes, Route } from "react-router-dom";
 
 
