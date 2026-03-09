@@ -1,17 +1,17 @@
 import { useState } from 'react';
 import './App.css';
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import BlogCard from "./components/BlogCard";
-import { posts } from "./components/data/posts";
-import Footer from "./components/Footer";
-import Article from "./components/Article";
-import About from "./components/About";
-import HomeExtra from "./components/HomeExtra";
-import FeaturedArticle from "./components/FeaturedArticle";
-import AuthorSpotlight from "./components/AuthorSpotlight";
-import Newsletter from "./components/Newsletter";
-import Trending from "./components/Trending";
+import Navbar from "../src/components/Navbar";  ;
+import Hero from "../src/components/Hero";
+import BlogCard from "../src/components/BlogCard";
+import { posts } from "../src/components/data/posts";
+import Footer from "../src/components/Footer";
+import Article from "../src/components/Article";
+import About from "../src/components/About";
+import HomeExtra from "../src/components/HomeExtra";
+import FeaturedArticle from "../src/components/FeaturedArticle";
+import AuthorSpotlight from "../src/components/AuthorSpotlight";
+import Newsletter from "../src/components/Newsletter";
+import Trending from "../src/components/Trending";
 import { Routes, Route } from "react-router-dom";
 
 
