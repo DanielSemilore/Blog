@@ -10,7 +10,7 @@ import About from "../src/Components/About";
 import HomeExtra from "../src/Components/HomeExtra";
 import FeaturedArticle from "../src/Components/FeaturedArticle";
 import AuthorSpotlight from "../src/Components/AuthorSpotlight";
-import Newsletter from "../src/Components/Newsletter";
+import Newsletter from "../src/Components/NewsLetter";
 import Trending from "../src/Components/Trending";
 import { Routes, Route } from "react-router-dom";
 
